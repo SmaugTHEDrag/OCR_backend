@@ -25,7 +25,7 @@ chatbot_prompt = open_file('problem2/sysprompt2.txt')
 
 # Khởi tạo khóa API OpenAI
 # Đặt khóa API OpenAI bằng cách đọc chúng từ các tệp
-api_key = open_file('openaiapikey2.txt')
+api_key = open_file('openaiapikey.txt')
 client = openai.OpenAI(api_key=api_key)
 
 # Khởi tạo tệp JSONL

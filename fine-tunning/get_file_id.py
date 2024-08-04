@@ -6,7 +6,7 @@ def open_file(filepath):
         return infile.read()
 
 # Set the OpenAI API keys by reading them from files
-api_key = open_file('openaiapikey2.txt')
+api_key = open_file('openaiapikey.txt')
 
 client = openai.OpenAI(api_key=api_key)
 

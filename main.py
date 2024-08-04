@@ -37,7 +37,7 @@ app.add_middleware(
 
 # xem thử hoạt động của fastapi
 @app.get("/")
-async def root():
+async def test():
     return {"message":"Hello World!"}
 
 # Hàm tạo một api key dựa trên thời gian hiện tại datetime 
