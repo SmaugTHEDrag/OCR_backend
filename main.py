@@ -41,6 +41,8 @@ app.add_middleware(
 async def test():
     return {"message":"Hello World!"}
 
+# http://localhost:3000/docs to see all endpoint
+
 # Hàm tạo một api key dựa trên thời gian hiện tại datetime 
 def generate_api_key(specific_datetime=None):
     # Cung cấp datetime hoặc the thời gian hiện tại nếu không có thời gian cung cấp cụ thể 
