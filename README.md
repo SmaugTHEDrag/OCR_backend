@@ -39,6 +39,6 @@ Replace your_openai_api_key with your actual OpenAI API key.
 4. ### Run the FastAPI server
 
    ```bash
-   uvicorn main:app --reload
+   uvicorn main:app --port 3000  --reload
    ```
 Replace `main` with the filename containing your FastAPI application.

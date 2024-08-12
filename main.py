@@ -14,6 +14,7 @@ from google.cloud import vision
 from google.oauth2 import service_account
 from fastapi.middleware.cors import CORSMiddleware
 import hashlib
+import uvicorn
 import datetime
 load_dotenv()
 app = FastAPI()
@@ -225,3 +226,6 @@ async def convert(raw_text: str, template: str):
     # Gặp lỗi sẽ hiện ra câu lệnh 
     except Exception as e:
         return {"error": str(e)}
+
+if __name__ == '__main__':
+    uvicorn.run(app, port=3000, host='0.0.0.0')
