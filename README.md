@@ -20,7 +20,7 @@ This project provide an API for optical character recognition (OCR) and text con
 1. ### Clone the repository:
 
    ```bash
-   https://github.com/SmaugTHEDrag/fastapi.git
+   https://github.com/SmaugTHEDrag/OCR_backend.git
    cd repository
 
 2. ### Install dependencies:
